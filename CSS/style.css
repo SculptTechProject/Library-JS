@@ -1,0 +1,40 @@
+:root {
+  --svg-color: rgb(119, 119, 119);
+  --text: rgb(59, 59, 59);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header */
+
+.svgTitle {
+  max-width: 100%;
+  max-height: auto;
+  height: 50px;
+  fill: var(--svg-color);
+}
+
+.headerTitle{
+      color: var(--text);
+      font-weight: 600;
+}
+
+/* Buttons */
+.buttonsProperty{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 2.2rem;
+}
+
+.buttonAlignment{
+      max-width: 100%;
+      max-height: auto;
+      height: 2.5em;
+      width: 10rem;
+}
